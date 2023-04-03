@@ -1,0 +1,130 @@
+.FooterMain {
+  background-color: #002550;
+  position: relative;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 38px;
+  box-sizing: border-box;
+  width: 100%;
+  gap: 26px;
+}
+
+.FooterLinks {
+  padding: 0px 121px;
+  height: 246px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: space-between;
+  align-items: start;
+}
+
+.FooterLinksLogo {
+  height: 107px;
+  width: 107px;
+}
+.FooterLinksCompany {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: start;
+  justify-content: center;
+}
+
+.FooterLinkBody {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.FooterLinksContactMain {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.FooterLinksContactSub {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+
+.FooterLinksContactSub div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.FooterLinksContactSub div .FooterLinksTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.FooterLinksContactMain img {
+  height: 40px;
+  width: 40px;
+}
+
+.FooterLinksTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.FooterCopyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 127px;
+  flex-grow: 1;
+}
+
+.FooterCopyright .FooterLinksTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.FooterCopyright .FooterLinksBody {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.FooterLinksBodyItem img {
+  height: 20px;
+  width: 20px;
+}
+
+.FooterLinksBodyItem{
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: start;
+}
+.FooterLinksBodyItem span{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}

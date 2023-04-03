@@ -1,0 +1,104 @@
+.MainDiv5 {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2f4f6;
+  height: fit-content;
+  padding: 57px 127px;
+}
+
+.BlogSlider {
+  display: block;
+  width: 100%;
+}
+
+.BlogCardMain {
+  width: 455px;
+  height: 777px;
+  box-sizing: border-box;
+  padding: 23px;
+  box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+
+.BlogCardMain .BlogCardText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.BlogCardMain .BlogCardimg {
+  width: 407px;
+  height: 319px;
+  border-radius: 10px;
+}
+
+.BlogCardSpanTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #002550;
+  text-align: start;
+}
+
+.BlogCardSpanBody {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  color: #1a1a1a;
+  opacity: 0.6;
+}
+
+.BlogCardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+}
+
+.BlogCardInfo span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #002550;
+}
+
+.BlogCardInfoDate {
+  display: flex;
+  gap: 14px;
+}
+
+.BlogCardMoreInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BlogCardMoreInfo span, .BlogCardInfoDate {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #1a1a1a;
+}

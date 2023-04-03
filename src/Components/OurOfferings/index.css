@@ -1,0 +1,150 @@
+.MainDiv3 {
+  margin: 35px 200px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainTextHeader {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: justify;
+}
+
+.MainHR {
+  width: 200px;
+  height: 5px;
+  background: #1a1a1a;
+  border-radius: 7px;
+}
+
+.MainSmall {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+  color: #1a1a1a;
+}
+
+.MainSmall span {
+  font-weight: 700;
+  color: #002550;
+}
+
+.MainBooking {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 29px;
+  margin-top: 31px;
+}
+
+.BookingChild {
+  padding: 20px 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 481px;
+  height: 100px;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.BookingChild span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  display: block;
+  width: fit-content !important;
+  max-width: 200px !important;
+}
+
+.BookingChild div {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.MainBookingInactive {
+  background: #f2f4f6;
+}
+
+.MainBookingActive {
+  background: #ccd3dc;
+  border-bottom: 5px solid #000000;
+}
+.BookingCard {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 33px;
+}
+
+.BookingCardMain {
+  height: fit-content;
+  width: 478px;
+  box-sizing: border-box;
+  padding: 23px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+
+.BookingCardMain div{
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.BookingCardMain img {
+  height: 319px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.BookingCardSpanTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: #002550;
+}
+
+.BookingCardSpanBody {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  color: #1a1a1a;
+  opacity: 0.6;
+}

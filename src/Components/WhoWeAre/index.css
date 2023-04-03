@@ -1,0 +1,83 @@
+.MainDiv2 {
+  margin: 55px 200px 0;
+}
+
+.DisplayDiv2 {
+  background-color: #e6eaee;
+  height: 480px;
+  padding: 27px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
+  box-sizing: border-box;
+
+}
+
+.DisplayImage2 {
+  border-radius: 5px;
+  height: 100%;
+}
+
+.DisplayTextTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.ImageDiv2 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.DisplayTextBody {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #1a1a1a;
+  opacity: 0.6;
+  margin: 0;
+}
+.DisplayTextButton {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  gap: 10px;
+  width: 202px;
+  height: 61px;
+  border: 1px solid #01244a;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.DisplayTextButtonText {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.TextDiv2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 35px;
+}

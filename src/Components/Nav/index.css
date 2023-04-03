@@ -1,0 +1,83 @@
+.MainHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px ;
+  box-shadow:  0px 5px 5px #dfdede;
+}
+
+.MainButton {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 32px;
+  background: #002550;
+  border: 1px solid #002550;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.ButtonText {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.MainLogo{
+  height: 64px;
+  width: 68px;
+  overflow: hidden;
+}
+
+.MainLinks {
+  display: flex;
+  gap: 35px;
+}
+
+
+
+.MainLinks a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1a1a;
+  padding:0px 15px;
+  margin-bottom: -10px;
+  cursor: pointer;
+  /* border-bottom: 0 ; */
+}
+.MainLinks .inactive:after{
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  margin-top: 10px;
+  background: #1a1a1a;
+  transition: width .3s;
+}
+
+.MainLinks .active:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background: #1a1a1a;
+  transition: width .3s;
+}
+
+.MainLinks .inactive:hover::after  {
+  width: 100%;
+}
+

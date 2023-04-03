@@ -1,0 +1,47 @@
+.MainDiv1{
+  margin:50px 200px 0px ;
+}
+
+.DisplayDiv{
+  background-color: #002550;
+  position: relative;
+  height: 480px;
+}
+
+.DisplayImage, .ImageShadow{
+  height: 100%;
+  width: 1024px;
+  clip-path: polygon(29% 0, 100% 0, 100% 100%, 0% 100%);
+  position:absolute;
+  right: -1px;
+  z-index: 1;
+  border: none;
+  top: 0px;
+}
+
+.ImageShadow{
+  background: linear-gradient(233.83deg, rgba(255, 255, 255, 0.4) -0.03%, rgba(0, 0, 0, 0.4) 63.6%);
+}
+
+.DisplayText{
+  position: absolute;
+width: 388px;
+height: 210px;
+left: 54px;
+top: 50%;
+transform: translateY(-50%);
+text-align: left;
+font-family: 'Solway';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-transform: capitalize;
+margin: 0;
+color: #FFFFFF;
+}
+
+.DisplayTextHighlight{
+  color: #FAFF00;
+  font-weight: 700;
+}

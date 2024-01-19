@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/JethiTech-Solutions-test-task/static/css/main.bcbae1b0.css",
+    "main.js": "/JethiTech-Solutions-test-task/static/js/main.bde0e6e3.js",
+    "static/js/787.5a3bc0aa.chunk.js": "/JethiTech-Solutions-test-task/static/js/787.5a3bc0aa.chunk.js",
+    "static/media/OurTeam1.png": "/JethiTech-Solutions-test-task/static/media/OurTeam1.215652d9534ceae1336f.png",
+    "static/media/OurBlog1.png": "/JethiTech-Solutions-test-task/static/media/OurBlog1.47b7bf177cf8437e5e36.png",
+    "static/media/OurOffering2.png": "/JethiTech-Solutions-test-task/static/media/OurOffering2.3d1706f9ab985424b763.png",
+    "static/media/OurBlog2.png": "/JethiTech-Solutions-test-task/static/media/OurBlog2.d7ad5196b3c48e7e38ba.png",
+    "static/media/OurTeam2.png": "/JethiTech-Solutions-test-task/static/media/OurTeam2.5963576596bf1f429cec.png",
+    "static/media/OurBlog3.png": "/JethiTech-Solutions-test-task/static/media/OurBlog3.0a8b6632aaf3017eceb9.png",
+    "static/media/OurOffering3.png": "/JethiTech-Solutions-test-task/static/media/OurOffering3.3ed3aa81687a66f14520.png",
+    "static/media/OurTeam3.png": "/JethiTech-Solutions-test-task/static/media/OurTeam3.974ad4c07ff0012449ac.png",
+    "static/media/OurOffering1.png": "/JethiTech-Solutions-test-task/static/media/OurOffering1.827cf2af97cc383c9c24.png",
+    "static/media/logo.svg": "/JethiTech-Solutions-test-task/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/JethiTech-Solutions-test-task/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/JethiTech-Solutions-test-task/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/JethiTech-Solutions-test-task/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/JethiTech-Solutions-test-task/index.html",
+    "static/media/slick.woff": "/JethiTech-Solutions-test-task/static/media/slick.295183786cd8a1389865.woff",
+    "main.bcbae1b0.css.map": "/JethiTech-Solutions-test-task/static/css/main.bcbae1b0.css.map",
+    "main.bde0e6e3.js.map": "/JethiTech-Solutions-test-task/static/js/main.bde0e6e3.js.map",
+    "787.5a3bc0aa.chunk.js.map": "/JethiTech-Solutions-test-task/static/js/787.5a3bc0aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcbae1b0.css",
+    "static/js/main.bde0e6e3.js"
+  ]
+}
